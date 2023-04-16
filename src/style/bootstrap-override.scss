@@ -1,0 +1,50 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+$theme-colors: (
+  "primary": #242423,
+  "secondary": #3D3B37,
+  "third": #EFF2F4,
+  "fourth": #D1D1D1,
+  "fifth": #730707,
+  "sixth": #961B1B,
+  "seventh": rgb(216, 4, 4),
+  "eighth": #fff,
+  "ninth":red,
+  "tenth":blue
+);
+$font-sizes: (
+  1: 40px,
+  2: 32px,
+  3: 28px,
+  4: 24px,
+  5: 20px,
+  6: 18px,
+  7: 16px,
+  8: 14px,
+  9: 12px,
+);
+.searchSection{
+    background: url(../assets/searchImg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 40vh;
+    width:100%;
+}
+.book-card img{
+    height: 250px;
+    width: 170px
+}
+.book-card-link{
+    color: #a4a2a2;
+    cursor: pointer;
+    text-decoration: none;
+}
+.book-card-link:hover{
+    color:#3D3B37;
+    text-decoration: underline;
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
